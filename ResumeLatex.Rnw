@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+total={190mm,257mm},
+left = 10mm,
+top = 10mm
+}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+%\setlength{\oddsidemargin}{0.25in}
+%\setlength{\textwidth}{6in}
+%\setlength{\topmargin}{-0.25in}
+%\setlength{\headheight}{0.3in}
+%\setlength{\headsep}{0.2in}
+%\setlength{\textheight}{9in}
+%\setlength{\footskip}{0.1in}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\begin{center}
+{\LARGE \bf Guanyan Lin}\\
+{\small Email: guanlin@indiana.edu}\\
+{\small Address: 1750 N Range Rd, Bloomington, IN, 47408} \\
+{\bf (willing to relocate in my own expense)}\\
+{\small phone: 812-369-6456}
+\rule{19cm}{2pt}
+\end{center}
+
+\noindent{\bf Indiana University},Bloomington, IN \tab[11.5cm] May 2018\\ 
+\textit{MS in Data Science}\\
+GPA:3.57
+
+\noindent{\bf Indiana University},Bloomington, IN \tab[11.5cm] May 2016\\
+\textit{BS in Statistics}, \textit{BA in Economics}\\
+Minor: Business, Mathematics\\
+GPA: 3.74\\
+
+\noindent {\bf \large TECHICAL SKILLS}
+\begin{itemize}
+\itemsep0em
+\item {\bf Programming Language}: \texttt{R}, Python, SQL, JavaSE
+\item {\bf Computer Application}: PostgreSQL, Microsoft Access, MySQL, Microsoft Office, PC, MAC
+\item {\bf Core Courses}: Machine learning, Data mining, Advanced data structure, High dimensional data analysis, Bayesian statistics, Statistical consulting
+\end{itemize}
+
+\noindent {\bf \large Machine Learning and Statistics Experience}\\
+{\bf Machine Learning Research Assistant} \tab[9.5cm] May.2017 - Present\\
+\textit{Daniel McDonald's lab in Indiana University Bloomington, IN} 
+\begin{itemize}
+\item Read quantum chemistry papers and implement the most recent machine learning models and algorithms
+\item Utilize programming languages, such as R and Python, to change the file format and clean chemical data
+\item Use different molecule representations to transform input data such as BOB and Coulomb matrix
+\item Implement kernel ridge regression and neural networks in R and Scikitlearn in serial and parallel
+\end{itemize}
+{\bf Statistical Consulting Assistant} \tab[10cm] Sep.2015 - May 2016\\
+\textit {Indiana Statistical Consulting Center in Indiana University Bloomington, IN}
+\begin{itemize}
+\itemsep0em
+\item Use strong analytical skill to assist graduate students and faculties by understanding their research projects and providing statistical solutions for research projects
+\item Build statistical models such as generalized linear models and repeated measurement ANOVA to provide data driven evidences for research projects
+\item Utilize programming software such as R, Excel, and Python to clean data and to run analysis on surveys and lab projects
+\item Work independently and collaboratively with 2 supervisors and 1-3 consulting associates to develop solutions for clients
+\end{itemize}
+
+\noindent {\bf \large Business Analytics Projects}\\
+{\bf MCD Case Presentation} \tab[13.1cm] Sep.2015
+\begin{itemize}
+\itemsep0em
+\item Interview the owner of the manufacturer to find out what he concerned and to understand bidding, ordering, manufacturing, shipping, and paying processes
+\item Collect shipping logs, clock-in system, financial statements, and cost from the manufacturer and explore those data to find out how to reduce overhead cost
+\item Collaborated with a team of three others to provide a 45-minute presentation explaining our data based results and solution to not only layperson and professional business analyst
+\end{itemize}
+
+\noindent {\bf Kaggle Projects} \tab[13cm] Oct.2016 - Dec.2016
+\begin{itemize}
+\itemsep0em
+\item Ultilize R, Python, and postgreSQL to extract, transform, and clean data in different formats ranging from megabytes to gigabytes
+\item Implement different statistical models, such as generalized linear models, tuning the meta-parameter with cross validation criterion to find out the best model in the sense of minimizing the out of bag error based on mean squared error, if the loss function is not given
+\item If a particular loss function is given but I have never seen it, find the algorithms corresponding to that particular loss function in the industry literature and implement them
+\end{itemize}
+
+%\noindent {\bf Peer Tutor} \tab[9cm] Jan.2012 and Jan.2014\\
+%K201: The computer in Business. M463: Probability I, IU Bloomington, IN
+%\begin{itemize}
+%\item Increased the ability of explaining things in easy way.
+%\item Reinforced the knowledge by teaching material to other people. 
+%\end{itemize}
+
+\end{document}
