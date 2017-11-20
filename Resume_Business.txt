@@ -88,7 +88,7 @@
 
 \runsubsection{Indiana University Bloomington}
 \descript{| BS in statistics | BA in Economics \\Minor: Mathematcs, Business Consulting}
-\location{May 2016 | Bloomington, IN \textbullet{} Cum. GPA: 3.34/4.00 | Major GPA: 3.74 / 4.00}
+\location{May 2016 | Bloomington, IN \textbullet{} Cum. GPA: 3.34/4.00 | Major GPA: 3.74/4.00}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,33 +164,30 @@
 %\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Data Science Project
+%     Project
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Data Science Projects}
+\section{Business Consulting Projects}
 
-\runsubsection{Kaggle: }
-\descript{House Prices: Advanced Regression Techniques}
-\location{Oct 2016 - Nov 2016 | Bloomington, IN\\
-Techincal skills: \textbf{R} \textbullet{} Excel \textbullet{} Log Transformation \textbullet{} Reguralized Linear Regression \textbullet{} K-Folds Cross Validation}
+\runsubsection{MCD Machine, Inc Case}
+\descript{| Data analyst}
+\location{Aug 2014 - Dec 2014 | Bloomington, IN}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Replaced missing values with mean for continuous variables, and general average fot categorical data.
-\item Took log transformation for dependent variable, price, to make it more symmetric.
-\item Used Ridge regression and LASSO to model the log price VS other independent variables and make a prediction. 
-\item Implemented gradient decent algorithm and 5-Folds cross validation to tune the metaparameter and train the models.
+\item Interviewed the owner of the manufacture industry to find out client concerns and to understand bidding, ordering, manufacturing, shipping, and paying processes.
+\item Collected shipping logs, clock-in system, financial statements, and cost from the manufacturer and analyze the data to find out how to reduce overhead cost.
+\item Collaborated with a team of three others with different academic backgrounds to provide a 45-minute presentation explaining our data based results and solution to both layperson and professional business analyst.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Kaggle: }
-\descript{Outbrain Click Prediction}
-\location{Nov 2016 - Dec 2016 | Bloomington, IN \\
-Techincal skills: \textbf{R} \textbullet{} PostgreSQL \textbullet{} High Throughput Cluster \textbullet{} Parallel Computing \textbullet{} Logistics Regression}
+\runsubsection{Kaggle}
+\descript{}
+\location{Aug 2016 - Dec 2016 | Bloomington, IN}
 %\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Used PostgreSQL to join given relational tables, and extract the relevant information.
-\item Submitted torque script to high throughput cluster to speed up joining and extracting processes.
-\item Used descriptive statistics and logistics regression to model whether an ad would be clicked. 
+\item Utilized R, Python, and postgreSQL to extract, transform, and clean data in different formats ranging from MB to GB.
+\item Implemented different statistical models, such as generalized linear models, tuning the meta-parameter with cross validation criterion to find out the best model in the sense of minimizing the out of bag error based on mean squared error.
+\item Modified or searched the models and algorithms from the literature in the industry, if unfamiliar with the given loss function . 
 \end{tightemize}
 \sectionsep
 
@@ -198,17 +195,26 @@ Techincal skills: \textbf{R} \textbullet{} PostgreSQL \textbullet{} High Through
 %     Technical Skills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     For Data Science
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%\section{Technical Skills}
+%\begin{minipage}[t]{.6\textwidth}
+%\subsection{Core Courses}
+%\location{Statistics:} 
+%Machine Learning \textbullet{} Data Mining \textbullet{} Advanced data structure \\
+%High dimensional data analysis \textbullet{} High Performance Computing \\
+%Artificial Intelligence \textbullet{} Bayesian Data Analysis \textbullet{} Time Series Analysis \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     For Business
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical Skills}
 \begin{minipage}[t]{.6\textwidth}
 \subsection{Core Courses}
 %\location{Statistics:} 
-Machine Learning \textbullet{} Data Mining \textbullet{} Advanced data structure \\
-High dimensional data analysis \textbullet{} High Performance Computing \\
-Artificial Intelligence \textbullet{} Bayesian Data Analysis \textbullet{} Time Series Analysis 
+Econometric \textbullet{} Financial Economics \textbullet{} Managerial Economics \\
+Machine Learning \textbullet{} Data Mining \textbullet{} High Dimensional Data Analysis\\
+Artificial Intelligence \textbullet{} Exploratory Data Analysis \textbullet{} Time Series Analysis
+
 %\location{Machine Learning:} English\\
 \end{minipage}
 \hfill
@@ -217,9 +223,10 @@ Artificial Intelligence \textbullet{} Bayesian Data Analysis \textbullet{} Time 
 %\location{Basic - Intermidate:}
 \textbf{R} \textbullet{}   Python \textbullet{} PostgreSQL \textbullet \LaTeX\ \\ 
 %\location{Basic:}
-C(basic) \textbullet{} JavaSE(basic) \\
+C (basic) \textbullet{} JavaSE (basic) \\
 \sectionsep
 \end{minipage}
+
 
 
 %\hfill
