@@ -67,7 +67,7 @@
 
 
 \namesection{\LARGE{Guanyan}}{\LARGE{Lin}}{ \urlstyle{same} 1750 N Range Rd, IN, Bloomington \\
-\href{mailto:user@example.com}{aaronarchiblad@gmail.com} | 812-369-6456
+\href{mailto:user@example.com}{aaronarchiblad@gmail.com} | 812-369-6546
 }
 
 %\href{http://linkedin.com/in/12346}{http://linkedin.com/in/12346}
