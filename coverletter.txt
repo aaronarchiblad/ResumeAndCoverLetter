@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\usepackage{fontspec,xltxtra,xunicode}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\centering{
+{\fontsize{20}{14}\selectfont Guanyan Lin}\\
+\vspace{5pt}
+{\fontsize{11}{14}\selectfont 1750 N Range Road, Bloomington, Indiana, 47408}\\
+{\fontsize{11}{14}\selectfont aaronarchiblad@gmail.com | 812-369-6546}\\
+}
+\vspace{15pt}
+
+\begin{changemargin}{1cm}{1cm} 
+%your text here  
+\flushleft{
+\today
+\vspace{15pt}\\
+Mrs. Jane Smith \\
+Recruitment Officer \\
+The Corporation \\
+123 Pleasant Lane \\
+City, State 12345} \\
+\vspace{15pt}
+Dear Munich Re Recruiter,
+\vspace{5pt} \\
+I am delighted to express my interest in data scientist of Munich Re as advertised in School of Informatics, Computing, and Engineering career center in Indiana University Bloomington. I am graduating with my Master's Degree in Data Science in May 2018, but also have undergraduate degree in Statistics and Economics. I believe my multi-backgrounds equipped me with analytic, modeling, programming, and business communication skills needed for this position.
+\vspace{15pt} \\
+
+To prepare to be a data scientist, I have developed strong analytic and modeling skills. Throughout my college time in Indiana University. I not only finished more credit hours than I should take, but also became a research assistance of my professor. We were interested predicting molecule energy given the geometry location. The project required me to use a 133k molecules dataset, two programming languages (R and Python), and different libraries to developed machine learning algorithms such as kernel ridge regression and neural network. To speed up computations, I implemented some programs in parallel on a supercomputer, Karst, in IU. At the end of the program, we brought down the error from 138 to 6, which dramatically improved the accuracy. From this experience, I have learned that I am a self-starter who tries to solve problems, and I am eager to learn new techniques, and who wants to use analytic and modeling skills for business success.
+\vspace{15pt} \\
+I am confident that my past experience and my academic success in machine learning make me an excellent candidate for the data scientist with Munich Re. Thank you for your consideration and reading my letter. I look forward to meeting with you and discussing my qualification in more detail.
+\vspace{15pt} \\
+Sincerely,
+\vspace{50pt} \\
+Guanyan Lin
+\end{changemargin}
+
+
+
+%\href{http://linkedin.com/in/12346}{http://linkedin.com/in/12346}
+
+%\begin{center}
+%\huge\color{subheadings}\custombold{Guanyan Lin}
+%\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}  \documentclass[]{article}
